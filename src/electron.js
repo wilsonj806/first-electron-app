@@ -22,7 +22,7 @@ function createWindow() {
         slashes: true,
         pathname: path.join(__dirname, '../public/index.html')
       })
-    mainWindow.loadURL(pathURL);
+    mainWindow.loadURL('http://localhost:3000');
 
     // Open the DevTools.
     mainWindow.webContents.openDevTools();
